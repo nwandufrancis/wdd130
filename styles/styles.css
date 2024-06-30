@@ -1,0 +1,58 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Set a base font family */
+    margin: 0; /* Remove default margins from body */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px 20px; /* Example padding */
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex; /* Arrange links horizontally */
+    justify-content: space-between; /* Distribute links evenly */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Example link color */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px; /* Example padding for main content area */
+  }
+  
+  /* Aside styles */
+  aside {
+    background-color: #eee; /* Example background color */
+    padding: 10px; /* Example padding */
+    border: 1px solid #ccc; /* Add a border for separation */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+  
+  aside h2 {
+    margin-bottom: 5px; /* Add margin for spacing below heading */
+  }
+  
+  aside img {
+    max-width: 200px; /* Example max-width for responsive design */
+    display: block; /* Ensure image takes up full width */
+    margin-bottom: 10px; /* Add margin for spacing below image */
+  }
+  
+  aside p {
+    /* Styles for the paragraph in the aside */
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center; /* Example text alignment for footer */
+    padding: 10px; /* Example padding */
+    background-color: #f0f0f0; /* Example background color */
+  }
+  

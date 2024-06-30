@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  :root {
+    --primary-color: #your_primary_color_hex_code;
+    --secondary-color: #your_secondary_color_hex_code;
+    --accent-color: #your_accent_color_hex_code;
+    --additional-accent-color: #your_additional_accent_color_hex_code;
+    
+    --heading-font: Montserrat, sans-serif;  /* Replace with your heading font */
+    --paragraph-font: Open Sans, sans-serif;  /* Replace with your paragraph font */
+    
+    --nav-background-color: #your_navigation_background_color_hex_code;
+    --nav-link-color: #your_navigation_link_color_hex_code;
+    --nav-hover-link-color: #your_navigation_hover_link_color_hex_code;
+    --nav-hover-background-color: #your_navigation_hover_background_color_hex_code;
+  }
+
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);  /* Use font family from root variable */
+    color: #your_heading_color_hex_code;
+  }
+
+  header {
+    padding: 20px;
+    background-color: #your_primary_color_hex_code; /* Replace with your primary color */
+    color: #your_header_text_color_hex_code; /* Optional: Text color for header elements */
+  }
+
+  p {
+    padding: 15px; /* Adjust padding as desired */
+  }
+
+  nav {
+    background-color: var(--nav-background-color);  /* Use background color variable */
+    padding: 10px 0;  /* Adjust padding as desired */
+  }
+  
+  nav a {
+    color: var(--nav-link-color);  /* Use link color variable */
+    text-decoration: none;  /* Remove underline from links */
+    padding: 10px 20px;  /* Adjust padding as desired */
+    display: inline-block;  /* Display links horizontally side-by-side */
+  }
+  
+  nav a:hover {
+    background-color: var(--nav-hover-background-color); /* Use hover background color variable */
+    color: var(--nav-hover-link-color);  /* Use hover link color variable */
+  }
+  
