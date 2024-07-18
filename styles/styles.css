@@ -9,6 +9,10 @@ body {
     background-color: #f0f0f0; /* Example background color */
     padding: 10px 20px; /* Example padding */
   }
+
+  h1 {
+    border-bottom: 1px solid black; /* Adds a 1px black solid border */
+  }
   
   /* Navigation styles */
   nav {
