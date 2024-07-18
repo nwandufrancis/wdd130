@@ -48,7 +48,22 @@ body {
     display: block; /* Ensure image takes up full width */
     margin-bottom: 10px; /* Add margin for spacing below image */
   }
+
+  .grid {
+    display: grid;
+    /* Other grid styles as needed */
+  }
   
+  aside {
+    grid-column: 1; /* Places aside in the first column */
+    grid-row: 1;  /* Places aside in the first row (spans only one row) */
+  }
+  
+  main {
+    grid-column: 2; /* Places main in the second column */
+    grid-row: 1;  /* Places main in the first row (spans only one row) */
+  }
+    
   aside p {
     /* Styles for the paragraph in the aside */
   }
